@@ -20,7 +20,7 @@ footer.wp-block-template-part{ display:none!important }
 .elementor-element-09b4191 {z-index:-99999!important}
 
 .wp-block-group.wp-container-4, .wp-block-group.wp-container-10 {float:left!important}
-.wp-block-navigation ul li{padding-bottom:10px;border-bottom:2px solid white;}
+.wp-block-navigation ul li{padding-bottom:10px;border-bottom:2px solid transparent;}
 .wp-block-navigation ul li:hover{
 	border-bottom:2px solid black;
 	text-decoration:none!important;
@@ -33,6 +33,7 @@ footer.wp-block-template-part{ display:none!important }
 @media only screen and (max-width: 768px) {
 	.wp-block-navigation ul{ margin-top: 0px!important;margin-left: 0!important; }
 	.wp-block-navigation ul li { margin-right: 0px!important }	  
+	nav.is-layout-flex.is-responsive.wp-block-navigation{ margin-top:40px; }
 }
 @media only screen and (min-width: 769px) {
 	.wp-block-navigation ul{ margin-top: 50px!important;margin-left: 0px!important; }
