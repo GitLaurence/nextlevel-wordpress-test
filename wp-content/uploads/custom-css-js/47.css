@@ -10,9 +10,36 @@ For example:
 For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
 
 End of comment */ 
+
+div.is-layout-constrained.wp-block-group,
 h1.wp-block-site-title,
 h1.wp-block-post-title,
-hr.wp-block-separator{ display:none!important }
+hr.wp-block-separator,
+footer.wp-block-template-part{ display:none!important }
 
-.elementor-element-09b4191 {z-index:-99!important}</style>
+.elementor-element-09b4191 {z-index:-99999!important}
+
+.wp-block-group.wp-container-4, .wp-block-group.wp-container-10 {float:left!important}
+.wp-block-navigation ul li{padding-bottom:10px;border-bottom:2px solid white;}
+.wp-block-navigation ul li:hover{
+	border-bottom:2px solid black;
+	text-decoration:none!important;
+}
+.wp-block-navigation-link a,
+.wp-block-navigation-link a:hover{
+	text-decoration:none!important;
+}
+
+@media only screen and (max-width: 768px) {
+	.wp-block-navigation ul{ margin-top: 0px!important;margin-left: 0!important; }
+	.wp-block-navigation ul li { margin-right: 0px!important }	  
+}
+@media only screen and (min-width: 769px) {
+	.wp-block-navigation ul{ margin-top: 50px!important;margin-left: 0px!important; }
+	.wp-block-navigation ul li { margin-right: 0px!important }	  
+}
+@media only screen and (min-width: 1200px) {
+	.wp-block-navigation ul{ margin-top: 50px!important;margin-left: -100px!important; }
+	.wp-block-navigation ul li { margin-right: 40px!important }	  
+}</style>
 <!-- end Simple Custom CSS and JS -->

@@ -56,9 +56,7 @@ if ( typeof wpOnload === 'function' ) { wpOnload() }</script>
 <script src="http://gitlaurence.github.io/nextlevel-wordpress-test/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
 <script src="http://gitlaurence.github.io/nextlevel-wordpress-test/wp-includes/js/dist/hooks.min.js?ver=4169d3cf8e8d95a3d6d5" id="wp-hooks-js"></script>
 <script src="http://gitlaurence.github.io/nextlevel-wordpress-test/wp-includes/js/dist/i18n.min.js?ver=9e794f35a71bb98672ae" id="wp-i18n-js"></script>
-<script id="wp-i18n-js-after">
-wp.i18n.setLocaleData( { 'text directionltr': [ 'ltr' ] } );
-</script>
+<script id="wp-i18n-js-after">wp.i18n.setLocaleData( { 'text directionltr': [ 'ltr' ] } );</script>
 <script id="password-strength-meter-js-extra">var pwsL10n = {"unknown":"Password strength unknown","short":"Very weak","bad":"Weak","good":"Medium","strong":"Strong","mismatch":"Mismatch"};</script>
 <script src="http://gitlaurence.github.io/nextlevel-wordpress-test/wp-admin/js/password-strength-meter.min.js?ver=6.1.1" id="password-strength-meter-js"></script>
 <script src="http://gitlaurence.github.io/nextlevel-wordpress-test/wp-includes/js/underscore.min.js?ver=1.13.4" id="underscore-js"></script>
